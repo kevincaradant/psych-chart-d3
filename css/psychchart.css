@@ -1,6 +1,58 @@
+body {
+	background-color: rgba(255, 255, 255, 1);
+	margin:0;/*exterieur*/
+	padding:0;/*interieur*/
+	font: 10px sans-serif;
+	text-align: center;
+	font-size:25px;
+	font-family:Times New Roman;
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+#divButtons {
+	text-align: center;
+	border-radius: 25px;
+	border: 6px solid #8888FF;
+    background: #FFFFFF;
+    padding: 20px; 
+    margin-right:10%;
+    margin-left:10%;
+}
+
+#bouton {
+	font-size:20px;
+	font-family:Times New Roman;
+	border-radius: 10px;
+	border: 3px solid #000000;
+    background: #AAAAFF;
+    margin-right:10px;
+    margin-left:10px;
+    padding:10px;
+}
+
+#changeSetPointLabel {
+	font-size:20px;
+	font-family:Times New Roman;
+	border-radius: 10px;
+	border: 3px solid #000000;
+    background: #AAAAFF;
+    margin-right:10px;
+    margin-left:10px;
+    padding:10px;
+}
+
+#tableBoutons {
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
 path {
     fill:none;
-    stroke-width:1px;
+    stroke-width:1.5px;
 }
 
 .axis path{
@@ -8,7 +60,7 @@ path {
     stroke: black;
 }
 .axis {
-    font-size:10pt;
+    font-size:15px;
     font-family:sans-serif;
 }
 .tick {
@@ -27,10 +79,18 @@ circle.inner{
 }
 path.rh100{
     stroke:Black;
+    stroke-width:1.5px;
 }
 path.rhline{
     stroke:Gray;
 } 
+/*TEST*/
+path.testIsenthalpes{
+	stroke:green;
+	stroke-width:2px;
+	stroke-opacity:0.1;
+}
+/*FIN_TEST*/
 path.w{
     fill: White;
 }
