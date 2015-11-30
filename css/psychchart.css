@@ -1,15 +1,3 @@
-body {
-	background-color: rgba(255, 255, 255, 1);
-	margin:0;/*exterieur*/
-	padding:0;/*interieur*/
-	font: 10px sans-serif;
-	text-align: center;
-	font-size:25px;
-	font-family:Times New Roman;
-    background: #FFFFFF;
-    padding: 20px;
-}
-
 #divButtons {
 	text-align: center;
 	border-radius: 25px;
