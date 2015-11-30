@@ -589,7 +589,7 @@ var pc = new function() {
 	*	returns  : 
 	**************************************************/
 	this.setupChart = function(d){
-		d3.json('data/rh-curves.json', pc.drawChart)
+		d3.json('assets/bower_components/psych-chart-d3/data/rh-curves.json', pc.drawChart)
 		var json = [{"db": d.ta, "hr": pc.getHumRatio(d.ta, d.rh)}]
 		var b = pc.findComfortBoundary(d,0.5)
 		//setTimeout(function(){pc.drawComfortRegion(b)}, 10)
